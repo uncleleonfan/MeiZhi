@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/meizhi/meizhi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "妹纸",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "user"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "log"
+      },
+      {
+        "pagePath": "pages/meizhi/meizhi",
+        "text": "妹纸"
+      }
+    ]
+  }
+}

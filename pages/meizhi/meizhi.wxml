@@ -1,0 +1,6 @@
+<!--meizhi.wxml-->
+<view class="container log-list">
+  <block wx:for="{{meizhi}}" wx:for-item="log" wx:key="*this">
+    <image src="{{log}}" class="log-item" mode="aspectFill"></image>
+  </block>
+</view>
